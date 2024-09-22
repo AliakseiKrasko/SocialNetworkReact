@@ -5,8 +5,12 @@ const Post = (props) => {
     return (
         <div className={classes.items}>
             <img src="https://www.iphones.ru/wp-content/uploads/2024/02/IMG_8792.jpeg"/>
-            post1
+            {props.message}
+            <div>
+                <span>Like {props.like}</span>
+            </div>
         </div>
+
     )
 }
 
