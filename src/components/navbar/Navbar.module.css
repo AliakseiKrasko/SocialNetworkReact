@@ -1,0 +1,12 @@
+.nav {
+    grid-area: n;
+    background: red;
+}
+.nav ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.items {
+    color: black;
+}

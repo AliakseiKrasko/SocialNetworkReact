@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    align-items: center;
+    grid-area: h;
+    background: blue;
+    padding: 10px;
+}
+.header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    justify-self: end;
+}
