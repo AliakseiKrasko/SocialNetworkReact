@@ -2,11 +2,18 @@
     grid-area: n;
     background: red;
 }
-.nav ul {
-    list-style-type: none;
+.nav a {
+    text-decoration: none;
     padding-left: 10px;
+    color: white;
 }
 
 .items {
+    color: black;
+
+
+}
+
+.items a.active {
     color: black;
 }
