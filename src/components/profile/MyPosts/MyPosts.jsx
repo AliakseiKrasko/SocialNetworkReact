@@ -4,10 +4,12 @@ import Post from "./post/Post";
 
 const MyPosts = (props) => {
     return (
-        <div>
-            My Posts
+        <div className={classes.MyContent}>
+            <h3>My Posts</h3>
             <div>
                 <textarea placeholder="Enter your post..."></textarea>
+            </div>
+            <div>
                 <button>Add post</button>
             </div>
             <div className={classes.posts}>
